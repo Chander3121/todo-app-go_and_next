@@ -183,30 +183,3 @@ Verify that your database is running and the connection string in `config/db.go`
 
 ### Port Already in Use
 If port 3000 or 8080 is already in use, you can configure alternative ports in the respective application configurations.
-
-## Git Workflow
-
-This monorepo uses Git to track both the backend and frontend:
-
-```bash
-# Add changes
-git add .
-
-# Commit changes
-git commit -m "Your commit message"
-
-# Push to remote
-git push origin main
-```
-
-## Contributing
-
-When contributing to this project:
-1. Make changes in either `todo-be-go/` or `todo-fe-next/`
-2. Test your changes thoroughly
-3. Commit with descriptive messages
-4. Push to your branch
-
-## License
-
-This project is open source and available under the MIT License.
